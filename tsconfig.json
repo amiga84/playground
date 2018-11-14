@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "outDir": "public/js"
+  },
+  "compileOnSave": true,
+  "include": [
+    "typings/phaser.d.ts",
+    "src/**/*.ts",
+    "./node_modules/@types/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

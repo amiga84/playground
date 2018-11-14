@@ -1,0 +1,23 @@
+$padding: 6px;
+
+nav {
+    ul {
+        margin: 0;
+        padding: $padding;
+        list-style: none;
+    }
+
+    li {
+        display:inline-block;
+    }
+
+    a {
+        display:inline-block;
+        padding: $padding 10px;
+        text-decoration: none;
+    }
+}
+
+#game-container {
+    margin: 0 auto;
+}
